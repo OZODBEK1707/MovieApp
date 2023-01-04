@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="27dp"
+    tools:context=".ui.AddActivity">
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie name"
+        android:textSize="20sp"
+        android:background="@drawable/edt_background"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/edt_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie author"
+        android:textSize="20sp"
+        android:background="@drawable/edt_background"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_weight="1"
+        android:gravity="start"
+        android:padding="10dp"
+        android:id="@+id/edt_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie about"
+        android:textSize="20sp"
+        android:background="@drawable/edt_background"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/edt_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie date"
+        android:textSize="20sp"
+        android:background="@drawable/edt_background"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/blue"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"/>
+</LinearLayout>
